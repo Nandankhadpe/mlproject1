@@ -15,6 +15,7 @@ from src.utils import save_object
 @dataclass
 class DataTansformationConfig:
     preprocessor_obj_file_path=os.path.join("artifacts","preprocessor.pkl")
+#why we are saving the transormation model so that we can apply changes to any new upcoming data
 
 class DataTransformation:
     '''
